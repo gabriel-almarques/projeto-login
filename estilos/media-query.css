@@ -38,22 +38,31 @@ Grandes telas: acima de 1200px
     body {
         background-image: linear-gradient(to top, #E5C8A9, #5B8EC7, #B4A389 );
     }
-    
+
     section#login {
-        width: 850px;
+        width: 920px;
 
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 38%;
+        float: right;
+        width: 45%;
         height: 100%;
         background-position: center;
 
     }
 
     section#login > div#formulario {
-        float: right;
-        width: 62%;
+        float: left;
+        width: 55%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
 }
